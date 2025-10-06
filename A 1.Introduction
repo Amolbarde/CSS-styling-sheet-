@@ -1,1 +1,26 @@
 
+
+
+🧿 what is css?
+
+ -CSS stands for Cascading Style           Sheets.
+
+ -It is used to style and format HTML elements on a webpage.
+
+-HTML defines the structure (like headings, paragraphs, images).
+
+-CSS defines the look and feel (like colors, fonts, spacing, layout).
+
+
+🧿 Why use CSS?
+
+-Separation of content and style: HTML for content, CSS for design.
+
+-Reusability: One CSS file can style multiple pages.
+
+-Control: You can control colors, fonts, layouts, spacing, and responsiveness.
+
+-Consistency: Keep a uniform look across your website.
+
+
+
