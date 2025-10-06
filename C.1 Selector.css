@@ -1,1 +1,22 @@
 
+
+
+🧿 What is a CSS Selector?
+-A CSS selector is a pattern used to select HTML elements you want to style.
+
+Example:
+
+<p>Hello World</p>
+
+p {
+  color: blue;
+}
+
+👉👉Here, p is the selector. It targets all <p> tags and makes the text blue.
+
+🧿 Types of Selector 
+
+1)Type/Elements selector-->p,h1,div
+2)Id Selector.          -->#
+3)class Selector.       -->.
+4)Universal selector.   -->*
