@@ -1,1 +1,9 @@
+<p class="highlight">Text</p>
+
+.highlight
+ {
+  color: red;
+}
+
+//Selects elements with a specific class using ..
 
