@@ -1,1 +1,9 @@
 
+<div id="main">Content</div>
+
+#main
+ {
+  background-color: yellow;
+}
+
+//Selects an element with a specific ID using #.
