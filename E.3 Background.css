@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Background Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0; /* solid background color for page */
+    }
+
+    .color-box {
+      background-color: #87ceeb; /* skyblue */
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      color: white;
+    }
+
+    .image-box {
+      background-image: url('https://via.placeholder.com/600x200');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+      margin: 20px;
+      border-radius: 10px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    .gradient-box {
+      background: linear-gradient(to right, #ff7e5f, #feb47b); /* orange-pink gradient */
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="color-box">
+    This box has a solid background color.
+  </div>
+
+  <div class="image-box">
+    Background Image Example
+  </div>
+
+  <div class="gradient-box">
+    This box has a gradient background.
+  </div>
+
+</body>
+</html>
