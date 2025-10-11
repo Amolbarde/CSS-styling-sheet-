@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: lightblue;
+    }
+
+    .box {
+      background-color: #ffcccb;
+      padding: 20px;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Background Color Example</h2>
+  <div class="box">This box has a pink background.</div>
+
+</body>
+</html>
