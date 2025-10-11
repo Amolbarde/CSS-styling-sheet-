@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>More CSS Color Examples</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    .named-color {
+      color: blue;
+    }
+
+    .hex-color {
+      color: #e91e63;
+      background-color: #fce4ec;
+      padding: 10px;
+    }
+
+    .rgb-color {
+      color: rgb(255, 165, 0); /* orange */
+      background-color: rgb(255, 250, 240); /* floral white */
+      padding: 10px;
+    }
+
+    .rgba-border {
+      border: 2px solid rgba(0, 0, 0, 0.4); /* semi-transparent border */
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    .hsl-background {
+      background-color: hsl(120, 100%, 90%); /* light green */
+      padding: 10px;
+      color: hsl(120, 60%, 20%); /* dark green */
+    }
+  </style>
+</head>
+<body>
+
+  <h2 class="named-color">This is a Named Color (blue)</h2>
+
+  <div class="hex-color">
+    This text uses a Hex Color (#e91e63) with a light pink background.
+  </div>
+
+  <div class="rgb-color">
+    This text uses RGB Color (orange) with a floral white background.
+  </div>
+
+  <div class="rgba-border">
+    This box has a semi-transparent border using RGBA.
+  </div>
+
+  <div class="hsl-background">
+    This text and background use HSL colors.
+  </div>
+
+</body>
+</html>
