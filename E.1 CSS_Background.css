@@ -1,0 +1,37 @@
+
+
+*The CSS background property is used to set background effects (like color, image, position, etc.) for an element. 
+It’s actually a shorthand property that combines several individual background properties.
+
+✅ 1. Common Background Properties:
+
+| Property                | Description                           | Example Value                       |
+| ----------------------- | ------------------------------------- | ----------------------------------- |
+| `background-color`      | Sets background color                 | `red`, `#ffcc00`, `rgba(0,0,0,0.5)` |
+| `background-image`      | Sets a background image               | `url("image.jpg")`                  |
+| `background-repeat`     | Repeats the image (or not)            | `repeat`, `no-repeat`, `repeat-x`   |
+| `background-position`   | Position of the image                 | `top`, `center`, `50% 50%`          |
+| `background-size`       | Scales the image                      | `cover`, `contain`, `100px 200px`   |
+| `background-attachment` | Scroll behavior                       | `scroll`, `fixed`, `local`          |
+| `background`            | Shorthand to combine all of the above | See below                           |
+
+_________________________________________________________________________________________________
+
+✅ 2. Example: Individual Background Properties
+
+body {
+  background-color: #f0f0f0;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+________________________________________________________________________________________________
+✅ 3. Example: Shorthand background Property
+body {
+  background: url("bg.jpg") no-repeat center center / cover fixed #f0f0f0;
+}
+
+
+This is equivalent to combining all the background properties together.
