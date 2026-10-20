@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+     .container{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 25px;
+     }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+        header{
+            background-color: navy; 
+            padding: 20PX;
+            display: flex;
+            gap: 1000px;
+
+        }
+
+        .logo{
+            color: white;
+
+        }
+
+        h5{
+            color: white;
+        }
+
+        nav{
+            background-color: gray;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+        }
+       nav ul li a{
+          text-decoration: none;
+          color:  white;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 150%;
+        }
+
+        footer{
+            margin-top: 50%;
+            background-color: navy;
+            padding: 15px;
+            text-align: center;
+            font-size: 12px;
+            color: white;
+        }
+
+        .box{
+            background-color: gray;
+            height: 500px;
+            width: 600px;
+            align-self: center;
+            margin-left: 30%;
+            margin-top:4%;
+            box-shadow: 10px 10px 5px  lightblue;
+        }
+        
+        .box1{
+            background-color: blue;
+            height: 300px;
+            width: 400px;
+              box-shadow: 10px 10px 5px  black;
+        }
+        .box2{
+            background-color: rgb(4, 209, 4);
+            height: 300px;
+            width: 400px;
+            display: flex;
+              box-shadow: 10px 10px 5px  black;
+        }
+        .box3{
+            background-color: orange;
+            height: 300px;
+            width: 400px;
+            display: flex;
+              box-shadow: 10px 10px 5px  black;
+        }
+
+        .box4{
+            background-color: pink;
+            width: 100%;
+            margin-top: 25px;
+        }
+
+        .box1:hover{
+            background-color: yellow;
+             height: 350px;
+            width: 450px;
+
+        }
+
+         .box2:hover{
+            background-color: yellow;
+             height: 350px;
+            width: 450px;
+
+        }
+
+         .box3:hover{
+            background-color: yellow;
+             height: 350px;
+            width: 450px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3 class="logo">MyWebsite</h3>
+        <h5>Created By ab</h5>
+    </header>
+     
+    <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    <main>
+
+        <div class="box">
+            <h2>Welcome</h2>
+            <p>This is main content</p>
+        </div>
+     <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+      </div>
+
+      <div class="box4">jj</div>
+    </main>
+
+    <footer>
+    <section id="about">  <p>&copy Copyright 2026 | All right Resereved</p></section>
+    </footer>
+    
+</body>
+</html>

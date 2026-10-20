@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar examples</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+        }
+
+        nav{
+            background-color: navy;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo{
+            color: white;
+            font-size: 23px;
+            font-weight: bold;
+
+        }
+
+        .nav-links{
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-links a{
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .content
+        {
+            text-align: center;
+            margin-top: 100px;
+            width: 50%;
+            justify-content: center;
+            align-self: center;
+            margin-left: 25%;
+        }
+        .content h1{
+            color: navy;
+            margin-top: 15px;
+        }
+        .content p{
+            margin-top: 15px;
+            color: black;
+            font-weight: bold;
+            border: 2px solid cyan;
+            padding: 15px 15px;
+            background-color: grey;
+
+        }
+
+        a:hover{
+            color:yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">My Website</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+            
+        </div>
+    </nav>
+    <div class="content">
+        <h1> Welcome to my Website</h1>
+        <p>Ek important baat: HTML form submit karne se data apne aap PostgreSQL mein save nahi hota. Tumhare project mein action="register" request ko Java  aur servlet JDBC ki help se data database mein insert karta hai.</p>
+    </div>
+</body>
+</html>
